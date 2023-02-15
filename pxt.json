@@ -1,10 +1,12 @@
 {
-    "name": "sprint_02.02.2023_pxt",
+    "name": "sprint_02.02.2023_start_pxt",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "WhaleySansFont": "github:makecode-extensions/whaleysansfont#v1.1.0",
+        "pxt-DS3231": "github:keble6/pxt-ds3231#v1.0.2"
     },
     "files": [
         "main.blocks",
