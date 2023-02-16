@@ -1,12 +1,13 @@
 {
-    "name": "sprint_02.02.2023_start_pxt",
+    "name": "running_start_pxt",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
         "microphone": "*",
         "WhaleySansFont": "github:makecode-extensions/whaleysansfont#v1.1.0",
-        "pxt-DS3231": "github:keble6/pxt-ds3231#v1.0.2"
+        "pxt-DS3231": "github:keble6/pxt-ds3231#v1.0.2",
+        "pxt-running-competition": "github:TomasKazda/pxt-running-competition#d178837d481ea81033dc86daf02be4ab16ab4d1b"
     },
     "files": [
         "main.blocks",
