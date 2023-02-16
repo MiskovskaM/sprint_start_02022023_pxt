@@ -17,19 +17,25 @@
  
 
  */
+radio.setGroup(3)   
+
+
 input.onButtonPressed(Button.A, function () {
-    RunComp.SetLightLevel()
-    // udělat kalibraci na druhé straně
+    RunComp.SetLightLevel() // udělat kalibraci na druhé straně
     radio.sendNumber(1)
 })
-input.onButtonPressed(Button.B, function () {
-    control.reset()
-})
+
+
 RunComp.OnLightDrop(function () {
-    // Start
-    radio.sendNumber(2)
+    radio.sendNumber(2)  // Start
 })
+
+
 radio.onReceivedValue(function (name, value) {
     whaleysans.showNumber(value)
 })
-radio.setGroup(3)
+
+
+input.onButtonPressed(Button.B, function () {
+    control.reset()
+})
